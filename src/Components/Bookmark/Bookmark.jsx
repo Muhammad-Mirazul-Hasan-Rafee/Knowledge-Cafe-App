@@ -9,7 +9,7 @@ const Bookmark = ({bookmark}) => {
         </div>
     );
 };
-Bookmark.PropTypes = {
+Bookmark.propTypes = {
     bookmark:PropTypes.object
 }
 export default Bookmark;
